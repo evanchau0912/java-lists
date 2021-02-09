@@ -1,1 +1,1 @@
-In this course you'll learn how to use Lists to store groups of Objects. You'll also see when to use a List instead of an Array!
+In this section we'll talk about where Lists came from and what types of problems they solve!
