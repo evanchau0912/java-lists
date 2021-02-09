@@ -1,1 +1,1 @@
-In this section we'll talk about where Lists came from and what types of problems they solve!
+In this section we'll talk about some other important functions of Lists and see how to use them!

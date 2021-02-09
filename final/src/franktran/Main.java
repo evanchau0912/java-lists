@@ -6,20 +6,28 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        List<String> groceryString = new ArrayList<>();
-        groceryString.add("Jerome");
-        groceryString.add("Beth");
-        groceryString.add("Sam");
+        List<String> groceryLine = new ArrayList<>();
+        groceryLine.add("Jerome");
+        groceryLine.add("Beth");
+        groceryLine.add("Sam");
 
-        System.out.println(groceryString);
+        System.out.println(groceryLine);
 
-        groceryString.remove("Beth");
-//        groceryString.remove(1);
+        groceryLine.remove("Beth");
 
-        System.out.println(groceryString);
+        System.out.println(groceryLine);
 
-        String jerome = groceryString.get(0);
-
+        String jerome = groceryLine.get(0);
         System.out.println(jerome);
+
+        int samIndex = groceryLine.indexOf("Sam");
+        System.out.println(samIndex);
+
+        int size = groceryLine.size();
+        System.out.println(size);
+
+        for (String name : groceryLine) {
+            System.out.println(name);
+        }
     }
 }
